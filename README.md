@@ -94,17 +94,17 @@ web-scraping/
 
 ### Visualizations Created:
 
-- Price Distribution - Histogram and box plot of book prices
+- **Price Distribution** - Histogram and box plot of book prices
 
-- Rating Distribution - Bar chart of book ratings frequency
+- **Rating Distribution** - Bar chart of book ratings frequency
 
-- Availability Analysis - Pie chart of stock availability
+- **Availability Analysis** - Pie chart of stock availability
 
-- Price vs Rating - Comparative analysis of pricing by rating
+- **Price vs Rating** - Comparative analysis of pricing by rating
 
-- Correlation Matrix - Heatmap of feature relationships
+- **Correlation Matrix** - Heatmap of feature relationships
 
-- Price vs Availability - Violin plot showing price distribution by stock status
+- **Price vs Availability** - Violin plot showing price distribution by stock status
 
 ## Output:
 
@@ -131,27 +131,31 @@ web-scraping/
       ```
 5.  **Install dependencies**:
 
-    ```bash pip install -r requirements.txt
+    ```
+    bash pip install -r requirements.txt
 
     ```
 
 ## 📊 Usage
 
-1. Run Task 1: Web Scraping
+1. **Run Task 1**: Web Scraping
 
-   ```bash python src/web_scraper.py
+   ```
+   bash python src/web_scraper.py
 
    ```
 
-2. Run Task 2: Data Cleaning
+2. **Run Task 2**: Data Cleaning
 
-   ```bash python src/data_cleaning.py
+   ```
+   bash python src/data_cleaning.py
 
    ```
 
-3. Run Task 3: Exploratory Data Analysis
+3. **Run Task 3**: Exploratory Data Analysis
 
-   ```bash jupyter notebook notebooks/eda_analysis.ipynb
+   ```bash
+   jupyter notebook notebooks/eda_analysis.ipynb
 
    ```
 
