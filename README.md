@@ -50,36 +50,11 @@ web-scraping/
 - **Respectful Scraping**: Includes delays between requests to avoid overwhelming the target website
 - **Multiple Output Formats**: Saves data in both CSV and JSON formats
 
-### Usage
+### Output
 
-1. **Run the main scraping script**:
-   ```bash
-    python src/web_scraper.py
-   ```
+- data/raw/scraped_books.csv - Raw data in CSV format
 
-The script will:
-
-- Scrape book data from books.toscrape.com (50 pages)
-
-- Save raw data to data/raw/scraped_books.csv and data/raw/scraped_books.json
-
-## Outputs
-
-The scraper collects the following data for each book:
-
-- Title
-
-- Price
-
-- Availability status
-
-- Rating
-
-- Description
-
-- Product information (category, ISBN, etc.)
-
-- URL
+- data/raw/scraped_books.json - Raw data in JSON format
 
 ## Task 2: Data Cleaning and Preprocessing
 
@@ -87,13 +62,13 @@ The scraper collects the following data for each book:
 
 ### Objectives Achieved:
 
-- ✅ Missing Data Handling: Imputed missing values using appropriate strategies
+✅ Missing Data Handling: Imputed missing values using appropriate strategies
 
-- ✅ Outlier Detection: Identified and removed outliers using IQR method
+✅ Outlier Detection: Identified and removed outliers using IQR method
 
-- ✅ Categorical Encoding: Converted categorical variables using label encoding and one-hot encoding
+✅ Categorical Encoding: Converted categorical variables using label encoding and one-hot encoding
 
-- ✅ Data Normalization: Standardized numerical features using z-score and min-max scaling
+✅ Data Normalization: Standardized numerical features using z-score and min-max scaling
 
 ### Output:
 
@@ -109,13 +84,13 @@ The scraper collects the following data for each book:
 
 ### Objectives Achieved:
 
-- ✅ Summary Statistics: Computed mean, median, variance, and distribution metrics
+✅ Summary Statistics: Computed mean, median, variance, and distribution metrics
 
-- ✅ Data Visualization: Created histograms, scatter plots, box plots, and correlation matrices
+✅ Data Visualization: Created histograms, scatter plots, box plots, and correlation matrices
 
-- ✅ Correlation Analysis: Identified relationships between numerical features
+✅ Correlation Analysis: Identified relationships between numerical features
 
-- ✅ Insight Report: Generated comprehensive summary of key findings
+✅ Insight Report: Generated comprehensive summary of key findings
 
 ### Visualizations Created:
 
@@ -180,26 +155,26 @@ The scraper collects the following data for each book:
 
    ```
 
-   ## 🔧 Technologies Used
+## 🔧 Technologies Used
 
-   - Web Scraping: BeautifulSoup4, Requests
+- Web Scraping: BeautifulSoup4, Requests
 
-   - Data Processing: Pandas, NumPy
+- Data Processing: Pandas, NumPy
 
-   - Data Cleaning: Scikit-learn
+- Data Cleaning: Scikit-learn
 
-   - Visualization: Matplotlib, Seaborn
+- Visualization: Matplotlib, Seaborn
 
-   - Analysis: SciPy, Jupyter Notebook
+- Analysis: SciPy, Jupyter Notebook
 
-   ## 🎯 Next Steps
+## 🎯 Next Steps
 
 This cleaned and analyzed dataset is now ready for:
 
-    - Machine learning model development
+- Machine learning model development
 
-    - Price prediction algorithms
+- Price prediction algorithms
 
-    - Recommendation systems
+- Recommendation systems
 
-    - Inventory optimization analysis
+- Inventory optimization analysis
