@@ -157,15 +157,15 @@ web-scraping/
 
 ## 🔧 Technologies Used
 
-- Web Scraping: BeautifulSoup4, Requests
+- **Web Scraping**: BeautifulSoup4, Requests
 
-- Data Processing: Pandas, NumPy
+- **Data Processing**: Pandas, NumPy
 
-- Data Cleaning: Scikit-learn
+- **Data Cleaning**: Scikit-learn
 
-- Visualization: Matplotlib, Seaborn
+- **Visualization**: Matplotlib, Seaborn
 
-- Analysis: SciPy, Jupyter Notebook
+- **Analysis**: SciPy, Jupyter Notebook
 
 ## 🎯 Next Steps
 
