@@ -56,8 +56,11 @@ web-scraping/
 ### Usage
 
 1. **Run the main scraping script**:
-   `bash python src/web_scraper.py`
-   The script will:
+   ```bash
+    python src/web_scraper.py
+   ```
+
+The script will:
 
 - Scrape book data from books.toscrape.com (50 pages)
 
