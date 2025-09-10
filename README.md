@@ -62,13 +62,13 @@ web-scraping/
 
 ### Objectives Achieved:
 
-✅ Missing Data Handling: Imputed missing values using appropriate strategies
+✅ **Missing Data Handling**: Imputed missing values using appropriate strategies
 
-✅ Outlier Detection: Identified and removed outliers using IQR method
+✅ **Outlier Detection**: Identified and removed outliers using IQR method
 
-✅ Categorical Encoding: Converted categorical variables using label encoding and one-hot encoding
+✅ **Categorical Encoding**: Converted categorical variables using label encoding and one-hot encoding
 
-✅ Data Normalization: Standardized numerical features using z-score and min-max scaling
+✅ **Data Normalization**: Standardized numerical features using z-score and min-max scaling
 
 ### Output:
 
@@ -84,13 +84,13 @@ web-scraping/
 
 ### Objectives Achieved:
 
-✅ Summary Statistics: Computed mean, median, variance, and distribution metrics
+✅ **Summary Statistics**: Computed mean, median, variance, and distribution metrics
 
-✅ Data Visualization: Created histograms, scatter plots, box plots, and correlation matrices
+✅ **Data Visualization**: Created histograms, scatter plots, box plots, and correlation matrices
 
-✅ Correlation Analysis: Identified relationships between numerical features
+✅ **Correlation Analysis**: Identified relationships between numerical features
 
-✅ Insight Report: Generated comprehensive summary of key findings
+✅ **Insight Report**: Generated comprehensive summary of key findings
 
 ### Visualizations Created:
 
